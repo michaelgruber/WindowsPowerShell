@@ -5,7 +5,8 @@ $ProfileRoot = (Split-Path -Parent $MyInvocation.MyCommand.Path)
 $env:path += ";$ProfileRoot\Scripts"
 
 # Aliases
-Set-Alias vim gvim
+Set-Alias vim nvim
+Set-Alias pass gopass
 
 # posh-git
 . $ProfileRoot\PoshGit.ps1
